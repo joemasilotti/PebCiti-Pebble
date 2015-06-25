@@ -1,0 +1,32 @@
+GIT
+  remote: https://github.com/joemasilotti/pebblex
+  revision: 1bbabc4b6e52ec1b759c88bf63514fecbd44d628
+  specs:
+    pebblex (0.0.7)
+      thor (~> 0.18.1)
+      xcodeproj (~> 0.14.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (3.2.22)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    colored (1.2)
+    i18n (0.7.0)
+    multi_json (1.11.1)
+    rake (10.4.2)
+    thor (0.18.1)
+    xcodeproj (0.14.1)
+      activesupport (~> 3.0)
+      colored (~> 1.2)
+      rake
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pebblex!
+
+BUNDLED WITH
+   1.10.5
