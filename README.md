@@ -2,6 +2,18 @@
 
 PebCiti is a simple Pebble app to show the nearest available bike hire dock or bike on your watch (works both in NYC and London).
 
+# Installation
+
+PebCiti now requires Pebble SDK 3.0 to build.
+
+1. `brew install pebble/pebble-sdk/pebble-sdk`
+
+If you are working in OS X, you can also use Xcode as your IDE.
+
+2. `gem install bundler`
+3. `bundle`
+4. `open PebCiti.xcodeproj`
+
 ## Credit
 
 PebCiti is composed of two parts — the Pebble app was created by [Joe Masilotti](http://masilotti.com/) and the javascript code (which runs in the official Pebble app) has been developed by [Tomas Vitek](http://tomasvitek.com/).
