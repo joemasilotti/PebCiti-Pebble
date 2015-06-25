@@ -1,3 +1,6 @@
+# OS X temp files
+.DS_Store
+
 # waf build tool generated files
 .waf*
 .lock-waf*
@@ -13,3 +16,15 @@ serial_dump.txt
 # Build files
 build/
 !build/*.pbw
+
+# Xcode config settings
+*.pbxuser
+*.perspective
+*.mode1v3
+*.mode2v3
+
+# Xcode noise
+UserInterfaceState.xcuserstate
+Breakpoints.xcbkptlist
+xcuserdata
+*.xccheckout
